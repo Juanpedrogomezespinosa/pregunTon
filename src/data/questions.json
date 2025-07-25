@@ -1,0 +1,21 @@
+[
+  {
+    "category": "Cine",
+    "question": "¿Quién dirigió 'Inception'?",
+    "options": [
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "James Cameron",
+      "Steven Spielberg"
+    ],
+    "answer": 1,
+    "audio": "/audios/q.mp3"
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Cuántos jugadores hay en un equipo de fútbol?",
+    "options": ["9", "10", "11", "12"],
+    "answer": 2,
+    "audio": "/audios/q.mp3"
+  }
+]
