@@ -1,21 +1,1662 @@
 [
   {
+    "category": "Deportes",
+    "question": "¿En qué año España ganó su primer Mundial de fútbol?",
+    "options": ["2006", "2010", "2014", "2018"],
+    "answer": 1
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Quién escribió la saga 'Canción de Hielo y Fuego'?",
+    "options": [
+      "J.K. Rowling",
+      "George R.R. Martin",
+      "Stephen King",
+      "J.R.R. Tolkien"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Cómo se llamaba el programa presentado por Jesús Vázquez en los 2000?",
+    "options": [
+      "Operación Triunfo",
+      "Gran Hermano",
+      "El Juego de la Oca",
+      "Aquí no hay quien viva"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Quién es el protagonista de 'Dragon Ball'?",
+    "options": ["Naruto Uzumaki", "Monkey D. Luffy", "Goku", "Ichigo Kurosaki"],
+    "answer": 2
+  },
+  {
     "category": "Cine",
-    "question": "¿Quién dirigió 'Inception'?",
+    "question": "¿Quién dirigió la película 'Pulp Fiction'?",
     "options": [
       "Quentin Tarantino",
-      "Christopher Nolan",
-      "James Cameron",
-      "Steven Spielberg"
+      "Martin Scorsese",
+      "Steven Spielberg",
+      "Francis Ford Coppola"
     ],
-    "answer": 1,
-    "audio": "/audios/q.mp3"
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué pintor creó 'La persistencia de la memoria'?",
+    "options": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Frida Kahlo",
+      "Claude Monet"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
+    "options": ["1939", "1941", "1914", "1929"],
+    "answer": 0
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la capital de Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "answer": 2
   },
   {
     "category": "Deportes",
-    "question": "¿Cuántos jugadores hay en un equipo de fútbol?",
-    "options": ["9", "10", "11", "12"],
-    "answer": 2,
-    "audio": "/audios/q.mp3"
+    "question": "¿Cuántos jugadores hay en un equipo de baloncesto en pista?",
+    "options": ["5", "6", "7", "11"],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué cantante es conocido como 'El Rey del Pop'?",
+    "options": [
+      "Prince",
+      "Michael Jackson",
+      "Elvis Presley",
+      "Freddie Mercury"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Quién protagonizó la serie 'Los Serrano'?",
+    "options": [
+      "Antonio Resines",
+      "Jesús Bonilla",
+      "Jorge Sanz",
+      "Dani Martín"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué técnica usa Naruto para crear clones?",
+    "options": ["Rasengan", "Kage Bunshin no Jutsu", "Chidori", "Amaterasu"],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué actor protagoniza 'El Lobo de Wall Street'?",
+    "options": ["Leonardo DiCaprio", "Brad Pitt", "Tom Hanks", "Matt Damon"],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿En qué ciudad está el Museo del Louvre?",
+    "options": ["Londres", "París", "Roma", "Madrid"],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
+    "options": [
+      "Abraham Lincoln",
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el río más largo del mundo?",
+    "options": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
+    "answer": 1
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Cuántos Grand Slams puede ganar un tenista en un año?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Quién interpretó a Jack Sparrow en 'Piratas del Caribe'?",
+    "options": [
+      "Orlando Bloom",
+      "Johnny Depp",
+      "Brad Pitt",
+      "Leonardo DiCaprio"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Quién cantaba el tema principal de 'Los Serrano'?",
+    "options": [
+      "La Oreja de Van Gogh",
+      "Pereza",
+      "Estopa",
+      "El Canto del Loco"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "Anime",
+    "question": "¿Quién es el autor de 'One Piece'?",
+    "options": [
+      "Masashi Kishimoto",
+      "Eiichiro Oda",
+      "Tite Kubo",
+      "Yoshihiro Togashi"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué película ganó el Oscar a Mejor Película en 1994?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Titanic"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Arte",
+    "question": "¿Quién pintó 'Guernica'?",
+    "options": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Diego Velázquez",
+      "Francisco Goya"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Qué imperio construyó Machu Picchu?",
+    "options": ["Azteca", "Maya", "Inca", "Olmeca"],
+    "answer": 2
+  },
+  {
+    "category": "Geografía",
+    "question": "¿En qué continente está el desierto del Sahara?",
+    "options": ["Asia", "África", "América", "Oceanía"],
+    "answer": 1
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Quién tiene el récord mundial de los 100 metros lisos?",
+    "options": ["Usain Bolt", "Carl Lewis", "Justin Gatlin", "Yohan Blake"],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Cómo se llama el videojuego donde se construye en un mundo de bloques y supervivencia?",
+    "options": ["Fortnite", "Minecraft", "Roblox", "Terraria"],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿En qué cadena se emitió 'Cuéntame cómo pasó'?",
+    "options": ["Antena 3", "Telecinco", "La 1", "Cuatro"],
+    "answer": 2
+  },
+  {
+    "category": "Anime",
+    "question": "¿Cuál es el poder principal de 'Goku' en Dragon Ball Super?",
+    "options": ["Super Saiyan", "Ultra Instinct", "Kaioken", "Genkidama"],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué director está detrás de la saga 'El Señor de los Anillos'?",
+    "options": [
+      "Peter Jackson",
+      "Christopher Nolan",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué movimiento artístico pertenece a Jackson Pollock?",
+    "options": [
+      "Impresionismo",
+      "Expresionismo Abstracto",
+      "Cubismo",
+      "Surrealismo"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el último emperador romano?",
+    "options": ["Constantino XI", "Rómulo Augústulo", "Julio César", "Nerón"],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la montaña más alta del mundo?",
+    "options": ["K2", "Everest", "Kangchenjunga", "Lhotse"],
+    "answer": 1
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Qué país ha ganado más Copas América de fútbol?",
+    "options": ["Brasil", "Argentina", "Uruguay", "Chile"],
+    "answer": 2
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué serie de Netflix tiene a 'Eleven' como personaje principal?",
+    "options": ["Stranger Things", "The Witcher", "Black Mirror", "Narcos"],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Quién fue el presentador de 'El Hormiguero' en sus inicios?",
+    "options": [
+      "Pablo Motos",
+      "Andreu Buenafuente",
+      "Javier Sardà",
+      "José Mota"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué personaje es conocido como el 'Chuunin más fuerte' en Naruto?",
+    "options": ["Shikamaru Nara", "Neji Hyuga", "Sasuke Uchiha", "Rock Lee"],
+    "answer": 0
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué actor interpretó a Tony Stark en el Universo Marvel?",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Arte",
+    "question": "¿Cuál es la técnica pictórica de aplicar pintura en pequeñas manchas o puntos?",
+    "options": ["Impasto", "Pointillismo", "Fresco", "Acuarela"],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién lideró la independencia de México?",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Miguel Hidalgo",
+      "Antonio López de Santa Anna"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el país más grande del mundo en superficie?",
+    "options": ["Canadá", "Estados Unidos", "China", "Rusia"],
+    "answer": 3
+  },
+  {
+    "category": "Deportes",
+    "question": "¿En qué ciudad se celebraron los Juegos Olímpicos de 1992?",
+    "options": ["Barcelona", "Atlanta", "Seúl", "Los Ángeles"],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué grupo musical lanzó el álbum 'Nevermind' en 1991?",
+    "options": ["Pearl Jam", "Nirvana", "Soundgarden", "Alice in Chains"],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Cómo se llamaba la serie española protagonizada por José Coronado y Adriana Ugarte en 2008?",
+    "options": [
+      "Hospital Central",
+      "Los Hombres de Paco",
+      "La Señora",
+      "El Internado"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "Anime",
+    "question": "¿En qué año se estrenó el anime 'Neon Genesis Evangelion'?",
+    "options": ["1989", "1995", "1999", "2001"],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Quién dirigió la trilogía original de 'Star Wars'?",
+    "options": [
+      "George Lucas",
+      "Steven Spielberg",
+      "James Cameron",
+      "Peter Jackson"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Cuál es el nombre del pintor impresionista francés famoso por sus nenúfares?",
+    "options": [
+      "Claude Monet",
+      "Édouard Manet",
+      "Edgar Degas",
+      "Pierre-Auguste Renoir"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+    "options": [
+      "Vladimir Lenin",
+      "Joseph Stalin",
+      "Leon Trotsky",
+      "Nicholas II"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la capital de Canadá?",
+    "options": ["Toronto", "Montreal", "Ottawa", "Vancouver"],
+    "answer": 2
+  },
+  {
+    "category": "Deportes",
+    "question": "¿En qué deporte destaca Lionel Messi?",
+    "options": ["Baloncesto", "Fútbol", "Tenis", "Golf"],
+    "answer": 1
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Quién es el creador de la saga de videojuegos 'The Legend of Zelda'?",
+    "options": [
+      "Shigeru Miyamoto",
+      "Hideo Kojima",
+      "Tetsuya Nomura",
+      "Yu Suzuki"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Qué serie española tiene como protagonista a un profesor de química convertido en narcotraficante?",
+    "options": [
+      "La Casa de Papel",
+      "El Ministerio del Tiempo",
+      "Vis a Vis",
+      "El Príncipe"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Cómo se llama la ciudad donde se desarrolla 'Cowboy Bebop'?",
+    "options": ["Mars", "Earth", "Júpiter", "Saturno"],
+    "answer": 0
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué actriz protagonizó 'Pretty Woman' junto a Richard Gere?",
+    "options": ["Julia Roberts", "Sandra Bullock", "Meg Ryan", "Cameron Diaz"],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿En qué país nació Frida Kahlo?",
+    "options": ["México", "España", "Argentina", "Chile"],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Cuál fue el principal conflicto bélico entre 1950 y 1953?",
+    "options": [
+      "Guerra de Vietnam",
+      "Guerra de Corea",
+      "Guerra del Golfo",
+      "Guerra Fría"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Qué país tiene forma de bota?",
+    "options": ["Grecia", "Italia", "España", "Portugal"],
+    "answer": 1
+  },
+  {
+    "category": "Deportes",
+    "question": "¿En qué año se creó la NBA?",
+    "options": ["1946", "1950", "1960", "1970"],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué serie animada tiene como protagonista a un niño llamado Bart Simpson?",
+    "options": ["Family Guy", "Los Simpsons", "Futurama", "South Park"],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Qué programa de televisión presentaba Jordi González?",
+    "options": [
+      "Gran Hermano",
+      "Mujeres y Hombres y Viceversa",
+      "Operación Triunfo",
+      "Supervivientes"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Anime",
+    "question": "¿Cuál es el poder de Ichigo Kurosaki en 'Bleach'?",
+    "options": ["Shinigami", "Saiyan", "Ninja", "Alquimista"],
+    "answer": 0
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué película protagonizó Tom Hanks en una isla desierta?",
+    "options": [
+      "Forrest Gump",
+      "Náufrago",
+      "Philadelphia",
+      "Salvar al Soldado Ryan"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué artista es conocido por sus esculturas de globos en forma de animales?",
+    "options": ["Jeff Koons", "Damien Hirst", "Banksy", "Ai Weiwei"],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el líder nazi durante la Segunda Guerra Mundial?",
+    "options": [
+      "Benito Mussolini",
+      "Adolf Hitler",
+      "Joseph Stalin",
+      "Winston Churchill"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el país más pequeño del mundo?",
+    "options": ["Mónaco", "Nauru", "Vaticano", "San Marino"],
+    "answer": 2
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Qué tenista suizo es considerado uno de los mejores de la historia?",
+    "options": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Andy Murray"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué banda lanzó el álbum 'Abbey Road'?",
+    "options": ["The Beatles", "The Rolling Stones", "Pink Floyd", "Queen"],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Cuál es la profesión del personaje principal de 'Aquí no hay quien viva'?",
+    "options": ["Profesor", "Policía", "Administrador de fincas", "Camarero"],
+    "answer": 2
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué es un 'Titan' en la serie 'Attack on Titan'?",
+    "options": [
+      "Un robot gigante",
+      "Un gigante humanoide",
+      "Un dragón",
+      "Un demonio"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Quién interpretó a Forrest Gump?",
+    "options": ["Tom Hanks", "Matt Damon", "Brad Pitt", "Johnny Depp"],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Cuál es el estilo artístico de Vincent van Gogh?",
+    "options": ["Impresionismo", "Postimpresionismo", "Cubismo", "Surrealismo"],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿Qué civilización construyó las pirámides de Egipto?",
+    "options": ["Azteca", "Egipcia", "Inca", "Maya"],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la capital de Japón?",
+    "options": ["Osaka", "Kyoto", "Tokio", "Hiroshima"],
+    "answer": 2
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Qué ciclista español ganó el Tour de Francia en 2019?",
+    "options": [
+      "Alberto Contador",
+      "Miguel Indurain",
+      "Marc Soler",
+      "Carlos Sastre"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué cantante lanzó el álbum '1989'?",
+    "options": ["Katy Perry", "Taylor Swift", "Adele", "Beyoncé"],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Qué programa protagonizó Pablo Motos?",
+    "options": [
+      "El Hormiguero",
+      "La Sexta Noche",
+      "MasterChef",
+      "El Intermedio"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Quién es el antagonista principal de 'Dragon Ball Z' durante la saga de los androides?",
+    "options": ["Cell", "Freezer", "Majin Buu", "Raditz"],
+    "answer": 0
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué actor protagoniza la saga de 'Piratas del Caribe'?",
+    "options": ["Johnny Depp", "Orlando Bloom", "Geoffrey Rush", "Ian McShane"],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué pintor español es conocido por su etapa azul y rosa?",
+    "options": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Joan Miró",
+      "Francisco de Goya"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Qué evento histórico tuvo lugar en 1492?",
+    "options": [
+      "Revolución Francesa",
+      "Descubrimiento de América",
+      "Independencia de México",
+      "Caída del Imperio Romano"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "options": ["Atlántico", "Pacífico", "Índico", "Ártico"],
+    "answer": 1
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Quién ganó la Copa Mundial de la FIFA en 2018?",
+    "options": ["Brasil", "Alemania", "Francia", "Argentina"],
+    "answer": 2
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué película de Marvel fue la primera en estrenarse en el Universo Cinematográfico Marvel?",
+    "options": ["Iron Man", "Capitán América", "Thor", "Los Vengadores"],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Qué presentador conduce el programa 'El Intermedio'?",
+    "options": [
+      "Andreu Buenafuente",
+      "El Gran Wyoming",
+      "Jordi Évole",
+      "Pablo Motos"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Anime",
+    "question": "¿Quién es el protagonista de 'Naruto'?",
+    "options": [
+      "Sasuke Uchiha",
+      "Naruto Uzumaki",
+      "Sakura Haruno",
+      "Kakashi Hatake"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿En qué película aparece el personaje 'Tyler Durden'?",
+    "options": ["El Club de la Lucha", "Matrix", "Pulp Fiction", "Gladiator"],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Quién pintó 'La última cena'?",
+    "options": ["Miguel Ángel", "Leonardo da Vinci", "Rafael", "Caravaggio"],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
+    "options": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "John Adams"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la montaña más alta del mundo?",
+    "options": ["K2", "Everest", "Makalu", "Lhotse"],
+    "answer": 1
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Qué país es conocido como la cuna del fútbol?",
+    "options": ["Brasil", "Italia", "Inglaterra", "Argentina"],
+    "answer": 2
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué famoso cantante falleció en 1996 a los 27 años?",
+    "options": ["Kurt Cobain", "Jim Morrison", "Jimi Hendrix", "Amy Winehouse"],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Cuál fue la telenovela española que popularizó la expresión '¡Ay, qué dolor!'?",
+    "options": [
+      "Aquí no hay quien viva",
+      "La que se avecina",
+      "7 vidas",
+      "Farmacia de Guardia"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué anime trata sobre un grupo de piratas en busca del tesoro 'One Piece'?",
+    "options": ["Naruto", "One Piece", "Bleach", "Fairy Tail"],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Quién interpretó a Jack Dawson en 'Titanic'?",
+    "options": ["Leonardo DiCaprio", "Brad Pitt", "Tom Cruise", "Matt Damon"],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué movimiento artístico representa a Salvador Dalí?",
+    "options": ["Cubismo", "Impresionismo", "Surrealismo", "Expresionismo"],
+    "answer": 2
+  },
+  {
+    "category": "Historia",
+    "question": "¿En qué año cayó el Muro de Berlín?",
+    "options": ["1987", "1989", "1991", "1993"],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el río más largo del mundo?",
+    "options": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+    "answer": 0
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Quién ostenta el récord de más goles en un Mundial de fútbol?",
+    "options": ["Pelé", "Ronaldo Nazário", "Miroslav Klose", "Gerd Müller"],
+    "answer": 2
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué grupo lanzó la canción 'Bohemian Rhapsody'?",
+    "options": ["Queen", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Qué actriz protagonizó la serie 'Los Serrano'?",
+    "options": [
+      "Belén Rueda",
+      "Silvia Abascal",
+      "Marta González",
+      "Natalia Sánchez"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Quién es el creador del manga y anime 'Dragon Ball'?",
+    "options": [
+      "Masashi Kishimoto",
+      "Akira Toriyama",
+      "Eiichiro Oda",
+      "Tite Kubo"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué director es famoso por películas como 'E.T.' y 'Jurassic Park'?",
+    "options": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Quentin Tarantino"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué ciudad es considerada la cuna del Renacimiento?",
+    "options": ["Roma", "Florencia", "Venecia", "Milán"],
+    "answer": 1
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el emperador romano durante la erupción del Vesubio en el año 79 d.C.?",
+    "options": ["Nerón", "Tito", "Trajano", "Vespasiano"],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el desierto más grande del mundo?",
+    "options": ["Sahara", "Gobi", "Kalahari", "Ártico"],
+    "answer": 0
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Cuántos jugadores conforman un equipo de baloncesto en cancha?",
+    "options": ["5", "6", "7", "11"],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué actor interpreta a Tony Stark en el Universo Marvel?",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿En qué cadena se emitió originalmente la serie 'El Internado'?",
+    "options": ["Telecinco", "Antena 3", "La Sexta", "Cuatro"],
+    "answer": 1
+  },
+  {
+    "category": "Anime",
+    "question": "¿Cuál es el nombre del robot gigante en 'Gundam'?",
+    "options": ["Eva", "Gundam", "Mazinger", "Voltron"],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué actor protagoniza la saga 'Mission: Impossible'?",
+    "options": ["Tom Cruise", "Matt Damon", "Will Smith", "Brad Pitt"],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué pintor holandés es famoso por sus autorretratos y por 'La ronda de noche'?",
+    "options": ["Rembrandt", "Vermeer", "Van Gogh", "Mondrian"],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el faraón egipcio durante la construcción de la Gran Pirámide de Giza?",
+    "options": ["Tutankamón", "Keops", "Ramsés II", "Akhenatón"],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la capital de Australia?",
+    "options": ["Sídney", "Melbourne", "Canberra", "Brisbane"],
+    "answer": 2
+  },
+  {
+    "category": "Deportes",
+    "question": "¿En qué deporte destaca Serena Williams?",
+    "options": ["Golf", "Tenis", "Baloncesto", "Atletismo"],
+    "answer": 1
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué videojuego popular es conocido por su mundo abierto y por tener un protagonista llamado Mario?",
+    "options": ["Sonic", "Mario Bros", "The Legend of Zelda", "Minecraft"],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Quién presentó 'Operación Triunfo' en sus primeras ediciones?",
+    "options": [
+      "Jesús Vázquez",
+      "Carlos Lozano",
+      "Jordi González",
+      "Risto Mejide"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Cuál es la principal habilidad de Luffy en 'One Piece'?",
+    "options": ["Elasticidad", "Velocidad", "Fuerza", "Control del fuego"],
+    "answer": 0
+  },
+  {
+    "category": "Cine",
+    "question": "¿Quién dirigió la película 'El Padrino'?",
+    "options": [
+      "Francis Ford Coppola",
+      "Martin Scorsese",
+      "Stanley Kubrick",
+      "Clint Eastwood"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Cuál es el nombre de la famosa escultura de Miguel Ángel en la Capilla Sixtina?",
+    "options": ["El David", "La Piedad", "Moisés", "La Creación de Adán"],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "options": ["1912", "1914", "1916", "1918"],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Qué país tiene la mayor cantidad de islas en el mundo?",
+    "options": ["Filipinas", "Indonesia", "Suecia", "Noruega"],
+    "answer": 2
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Quién es conocido como 'La Pulga' en el mundo del fútbol?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Neymar",
+      "Zlatan Ibrahimovic"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Cuál es el nombre del cantante principal de la banda Coldplay?",
+    "options": ["Bono", "Chris Martin", "Adam Levine", "Brandon Flowers"],
+    "answer": 1
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Qué serie española se desarrolla en un colegio interno y fue un éxito en Antena 3?",
+    "options": [
+      "El Internado",
+      "Los Serrano",
+      "Cuéntame cómo pasó",
+      "Hospital Central"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Qué anime presenta a un grupo llamado 'Los Siete Guerreros del Apocalipsis'?",
+    "options": ["Fullmetal Alchemist", "Bleach", "Nanatsu no Taizai", "Naruto"],
+    "answer": 2
+  },
+  {
+    "category": "Cine",
+    "question": "¿Quién ganó el Oscar a Mejor Director en 1994 por 'La Lista de Schindler'?",
+    "options": [
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Robert Zemeckis",
+      "Clint Eastwood"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Cuál es el nombre del pintor que creó 'La noche estrellada'?",
+    "options": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Pablo Picasso",
+      "Edvard Munch"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el líder de la Unión Soviética durante la Segunda Guerra Mundial?",
+    "options": ["Lenin", "Stalin", "Khrushchev", "Brezhnev"],
+    "answer": 1
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el país más grande del mundo en superficie?",
+    "options": ["Canadá", "Estados Unidos", "China", "Rusia"],
+    "answer": 3
+  },
+  {
+    "category": "Deportes",
+    "question": "¿En qué ciudad se celebraron los Juegos Olímpicos de 1992?",
+    "options": ["Barcelona", "Atlanta", "Seúl", "Sydney"],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Cuál es el nombre completo de la cantante conocida como 'Lady Gaga'?",
+    "options": [
+      "Stefani Joanne Angelina Germanotta",
+      "Robyn Fenty",
+      "Kesha Rose Sebert",
+      "Alicia Augello Cook"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Qué programa de humor español era conducido por Buenafuente?",
+    "options": ["El Hormiguero", "La Resistencia", "Late Motiv", "Buenafuente"],
+    "answer": 3
+  },
+  {
+    "category": "Anime",
+    "question": "¿Cuál es el poder principal de Goku en 'Dragon Ball Z'?",
+    "options": ["Genkidama", "Kamehameha", "Final Flash", "Rasengan"],
+    "answer": 1
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué película protagoniza Keanu Reeves como Neo?",
+    "options": ["Matrix", "John Wick", "Speed", "Constantine"],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué movimiento artístico se caracteriza por representar la luz y el color de manera subjetiva?",
+    "options": ["Impresionismo", "Cubismo", "Barroco", "Romanticismo"],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Qué civilización construyó Machu Picchu?",
+    "options": ["Aztecas", "Mayas", "Incas", "Olmecas"],
+    "answer": 2
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la capital de Canadá?",
+    "options": ["Toronto", "Ottawa", "Montreal", "Vancouver"],
+    "answer": 1
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Quién tiene el récord mundial de 100 metros planos masculino?",
+    "options": ["Usain Bolt", "Tyson Gay", "Asafa Powell", "Yohan Blake"],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué actor interpreta a 'Deadpool' en las películas?",
+    "options": [
+      "Ryan Reynolds",
+      "Hugh Jackman",
+      "Chris Evans",
+      "Robert Downey Jr."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Qué serie de televisión española gira en torno a la familia Alcántara?",
+    "options": [
+      "Cuéntame cómo pasó",
+      "Los Serrano",
+      "La Casa de Papel",
+      "Aquí no hay quien viva"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Quién es el antagonista principal en 'Attack on Titan' (Shingeki no Kyojin)?",
+    "options": ["Levi", "Eren", "Reiner", "Titán Colosal"],
+    "answer": 3
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué película de animación fue dirigida por Hayao Miyazaki y trata sobre una niña que vuela en una escoba?",
+    "options": [
+      "Mi vecino Totoro",
+      "El viaje de Chihiro",
+      "Kiki: Entregas a domicilio",
+      "La princesa Mononoke"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "Arte",
+    "question": "¿Quién pintó el techo de la Capilla Sixtina en el Vaticano?",
+    "options": ["Miguel Ángel", "Leonardo da Vinci", "Rafael", "Donatello"],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿En qué año llegó Cristóbal Colón a América?",
+    "options": ["1492", "1500", "1485", "1512"],
+    "answer": 0
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la capital de Sudáfrica?",
+    "options": ["Pretoria", "Johannesburgo", "Ciudad del Cabo", "Durban"],
+    "answer": 0
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Qué deporte practica Michael Jordan?",
+    "options": ["Baloncesto", "Fútbol americano", "Béisbol", "Golf"],
+    "answer": 0
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué cantante lanzó el álbum '25' en 2015?",
+    "options": ["Adele", "Taylor Swift", "Beyoncé", "Rihanna"],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Cuál es la serie española que gira en torno a un atraco a la Fábrica Nacional de Moneda y Timbre?",
+    "options": [
+      "La Casa de Papel",
+      "El Internado",
+      "Los Serrano",
+      "Aquí no hay quien viva"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿En qué anime aparece el personaje 'Light Yagami'?",
+    "options": ["Death Note", "Naruto", "Bleach", "One Piece"],
+    "answer": 0
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué película de Quentin Tarantino tiene un famoso diálogo llamado 'La escena del pie'?",
+    "options": [
+      "Pulp Fiction",
+      "Kill Bill",
+      "Django Unchained",
+      "Reservoir Dogs"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué pintor es conocido por su obra 'Guernica'?",
+    "options": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Joan Miró",
+      "Diego Velázquez"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Historia",
+    "question": "¿Quién fue el dictador español entre 1939 y 1975?",
+    "options": [
+      "Francisco Franco",
+      "Adolfo Suárez",
+      "Manuel Azaña",
+      "Felipe González"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es el país más poblado del mundo?",
+    "options": ["India", "Estados Unidos", "China", "Indonesia"],
+    "answer": 2
+  },
+  {
+    "category": "Deportes",
+    "question": "¿Cuál es el nombre del torneo de tenis más antiguo del mundo?",
+    "options": ["Roland Garros", "US Open", "Wimbledon", "Australian Open"],
+    "answer": 2
+  },
+  {
+    "category": "Cultura Pop",
+    "question": "¿Qué serie protagoniza Eleven, una niña con poderes psíquicos?",
+    "options": [
+      "Stranger Things",
+      "The X-Files",
+      "Buffy la cazavampiros",
+      "Dark"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "TV España 2000s",
+    "question": "¿Quién fue el presentador de '¿Quién quiere ser millonario?' en España?",
+    "options": [
+      "Carlos Sobera",
+      "Jesús Vázquez",
+      "Andreu Buenafuente",
+      "Pablo Motos"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Anime",
+    "question": "¿Cuál es el objetivo principal de los personajes en 'Dragon Ball'?",
+    "options": [
+      "Encontrar las Esferas del Dragón",
+      "Convertirse en ninjas",
+      "Salvar el mundo",
+      "Derrotar a los titanes"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Cine",
+    "question": "¿Qué actor interpretó a Jack Sparrow en 'Piratas del Caribe'?",
+    "options": [
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Geoffrey Rush",
+      "Keira Knightley"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Arte",
+    "question": "¿Qué pintor es conocido por sus pinturas de girasoles?",
+    "options": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Edvard Munch",
+      "Paul Cézanne"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué club ha ganado más títulos de LaLiga hasta 2023?",
+    "options": [
+      "Real Madrid",
+      "FC Barcelona",
+      "Atlético de Madrid",
+      "Sevilla FC"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién es el máximo goleador histórico de LaLiga?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Telmo Zarra",
+      "Raúl González"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿En qué año se fundó LaLiga?",
+    "options": ["1929", "1930", "1919", "1940"],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Cuál es el estadio del FC Barcelona?",
+    "options": [
+      "Santiago Bernabéu",
+      "Camp Nou",
+      "Wanda Metropolitano",
+      "Mestalla"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué jugador conocido como 'El Buitre' fue leyenda del Real Madrid?",
+    "options": [
+      "Emilio Butragueño",
+      "Raúl González",
+      "Fernando Hierro",
+      "Alfredo Di Stéfano"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué equipo juega en el estadio Wanda Metropolitano?",
+    "options": [
+      "Atlético de Madrid",
+      "Real Madrid",
+      "Valencia CF",
+      "Sevilla FC"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién ganó el Balón de Oro siendo jugador de LaLiga en 2010?",
+    "options": [
+      "Andrés Iniesta",
+      "Lionel Messi",
+      "Xavi Hernández",
+      "Cristiano Ronaldo"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Cuál es el apodo del Athletic Club de Bilbao?",
+    "options": ["Los Leones", "Los Merengues", "Los Culés", "Los Verdiblancos"],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué entrenador ganó tres títulos consecutivos de LaLiga con el FC Barcelona en los años 90?",
+    "options": [
+      "Johan Cruyff",
+      "Pep Guardiola",
+      "Luis Enrique",
+      "Frank Rijkaard"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién es el jugador con más partidos disputados en LaLiga?",
+    "options": [
+      "Andoni Zubizarreta",
+      "Raúl González",
+      "Iker Casillas",
+      "Xavi Hernández"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué equipo ganó LaLiga en la temporada 2013-2014?",
+    "options": [
+      "Atlético de Madrid",
+      "Real Madrid",
+      "FC Barcelona",
+      "Valencia CF"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Cuál es el estadio del Sevilla FC?",
+    "options": [
+      "Ramón Sánchez Pizjuán",
+      "Benito Villamarín",
+      "La Rosaleda",
+      "El Sardinero"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién fue el entrenador del Real Madrid durante la 'La Décima' (10ª Champions) en 2014?",
+    "options": [
+      "Carlo Ancelotti",
+      "José Mourinho",
+      "Zinedine Zidane",
+      "Rafael Benítez"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué jugador anotó el famoso gol 'Maradoniano' contra el Real Madrid en 1994 con el Deportivo La Coruña?",
+    "options": ["Mauro Silva", "Bebeto", "Donato", "Fran"],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué portero español es conocido como 'San Iker'?",
+    "options": [
+      "Iker Casillas",
+      "David De Gea",
+      "Víctor Valdés",
+      "Andoni Zubizarreta"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué equipo es conocido como 'Los Verdiblancos'?",
+    "options": [
+      "Real Betis",
+      "Real Sociedad",
+      "Villarreal CF",
+      "Celta de Vigo"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién fue el máximo goleador de LaLiga en la temporada 2014-2015?",
+    "options": [
+      "Luis Suárez",
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Karim Benzema"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué club juega en el estadio Mestalla?",
+    "options": ["Valencia CF", "Villarreal CF", "Espanyol", "Granada CF"],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué equipo tiene el apodo de 'Los Txuri-Urdin'?",
+    "options": [
+      "Real Sociedad",
+      "Athletic Club",
+      "Osasuna",
+      "Deportivo La Coruña"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Cuál fue el primer equipo en ganar LaLiga fuera de Madrid y Barcelona?",
+    "options": ["Athletic Club", "Real Sociedad", "Valencia CF", "Sevilla FC"],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién fue entrenador del FC Barcelona durante el 'triplete' de 2009?",
+    "options": [
+      "Pep Guardiola",
+      "Johan Cruyff",
+      "Luis Enrique",
+      "Tito Vilanova"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Cuál es el nombre completo del club conocido como 'Celta'?",
+    "options": [
+      "Real Club Celta de Vigo",
+      "Club Deportivo Celta",
+      "Atlético Celta",
+      "Vigo Football Club"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué jugador fue conocido como 'El Niño'?",
+    "options": [
+      "Fernando Torres",
+      "David Villa",
+      "Raúl González",
+      "Sergio Ramos"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué equipo tiene el apodo de 'Los Rojiblancos'?",
+    "options": ["Atlético de Madrid", "Athletic Club", "Osasuna", "Sevilla FC"],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué jugador fue apodado 'El Maestro' en el FC Barcelona?",
+    "options": [
+      "Andrés Iniesta",
+      "Xavi Hernández",
+      "Lionel Messi",
+      "Ronaldinho"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué entrenador ganó LaLiga con el Real Madrid en la temporada 2016-2017?",
+    "options": [
+      "Zinedine Zidane",
+      "Carlo Ancelotti",
+      "Julen Lopetegui",
+      "Rafa Benítez"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién es el jugador con más asistencias en la historia de LaLiga?",
+    "options": [
+      "Xavi Hernández",
+      "Lionel Messi",
+      "Andrés Iniesta",
+      "Raúl González"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué jugador fue conocido como 'El Guaje'?",
+    "options": [
+      "David Villa",
+      "Fernando Torres",
+      "Raúl González",
+      "Sergio Ramos"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Cuál fue el club que ascendió a LaLiga en la temporada 2020-2021 y es conocido por su cantera?",
+    "options": [
+      "RCD Espanyol",
+      "Real Valladolid",
+      "Real Sociedad",
+      "SD Huesca"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué club tiene el apodo 'Los Periquitos'?",
+    "options": ["RCD Espanyol", "Sevilla FC", "Villarreal CF", "Celta de Vigo"],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién fue el primer jugador en ganar seis Balones de Oro mientras jugaba en LaLiga?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Xavi Hernández",
+      "Andrés Iniesta"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿En qué año se inauguró el estadio Santiago Bernabéu?",
+    "options": ["1947", "1950", "1939", "1960"],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién fue el entrenador del Atlético de Madrid durante la era de Diego Simeone hasta 2023?",
+    "options": [
+      "Diego Simeone",
+      "Radomir Antic",
+      "Javier Aguirre",
+      "Luis Aragonés"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué futbolista fue conocido como 'El Loco'?",
+    "options": [
+      "Dani Alves",
+      "José María Gutiérrez 'Guti'",
+      "Gonzalo Higuaín",
+      "Luis Figo"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué jugador del Real Madrid fue apodado 'El Niño de Móstoles'?",
+    "options": [
+      "Raúl González",
+      "Sergio Ramos",
+      "Iker Casillas",
+      "Roberto Carlos"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Cuál es el récord de goles en una temporada de LaLiga?",
+    "options": ["50", "48", "46", "47"],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué equipo ganó LaLiga en la temporada 1998-1999?",
+    "options": [
+      "Barcelona",
+      "Real Madrid",
+      "Valencia CF",
+      "Deportivo La Coruña"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué futbolista argentino ha jugado tanto en Real Madrid como en Barcelona?",
+    "options": [
+      "Lionel Messi",
+      "Javier Saviola",
+      "Diego Maradona",
+      "Nicolás Burdisso"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué jugador lleva el dorsal número 10 en el FC Barcelona durante la era Messi?",
+    "options": ["Lionel Messi", "Ronaldinho", "Andrés Iniesta", "Neymar"],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué jugador histórico del Real Madrid fue conocido como 'El Príncipe de la Ciudad'?",
+    "options": [
+      "Raúl González",
+      "Alfredo Di Stéfano",
+      "Ferenc Puskás",
+      "Hugo Sánchez"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Qué club tiene como rivalidad histórica con el FC Barcelona en el 'Clásico'?",
+    "options": [
+      "Real Madrid",
+      "Atlético de Madrid",
+      "Valencia CF",
+      "Sevilla FC"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "Fútbol - LaLiga",
+    "question": "¿Quién fue el entrenador que revolucionó el estilo de juego del FC Barcelona en la década de 2010?",
+    "options": [
+      "Pep Guardiola",
+      "Luis Enrique",
+      "Johan Cruyff",
+      "Frank Rijkaard"
+    ],
+    "answer": 0
   }
 ]

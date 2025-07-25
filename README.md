@@ -20,7 +20,5 @@ pregunTon/
 ├── index.html
 ├── package-lock.json
 ├── package.json # Configuración del proyecto y dependencias
-├── tailwind.config.js # Configuración de TailwindCSS
-├── postcss.config.js # Configuración de PostCSS
 ├── vite.config.js # Configuración de Vite
 └── README.md # Documentación del proyecto

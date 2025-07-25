@@ -1,11 +1,10 @@
-// src/pages/Host.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { ref, set, update, get } from "firebase/database";
 import { db } from "../firebase";
 import Lobby from "../components/Lobby";
 import Question from "../components/Question";
 import Ranking from "../components/Ranking";
-import questions from "../data/questions.json";
+import allQuestions from "../data/questions.json";
 
 function generarIdPartida(longitud = 6) {
   const caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -18,30 +17,47 @@ function generarIdPartida(longitud = 6) {
   return resultado;
 }
 
-const TIEMPO_PREGUNTA = 5; // segundos
+function seleccionarPreguntasAleatorias(lista, cantidad) {
+  const copia = [...lista];
+  for (let i = copia.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copia[i], copia[j]] = [copia[j], copia[i]];
+  }
+  return copia.slice(0, cantidad);
+}
+
+const TIEMPO_PREGUNTA = 20;
+const MAXIMO_PREGUNTAS = 20;
 
 export default function Host() {
   const [gameId, setGameId] = useState("");
-  const [stage, setStage] = useState("crear"); // crear | lobby | question | ranking
+  const [stage, setStage] = useState("crear");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [questions, setQuestions] = useState([]);
   const [secondsLeft, setSecondsLeft] = useState(TIEMPO_PREGUNTA);
-
   const timerRef = useRef(null);
 
-  // Crea partida, sin jugadores al principio (host no incluido)
   useEffect(() => {
     if (!gameId) return;
-    const gameRef = ref(db, `games/${gameId}`);
 
-    set(gameRef, {
+    const gameReference = ref(db, `games/${gameId}`);
+
+    const preguntasSeleccionadas = seleccionarPreguntasAleatorias(
+      allQuestions,
+      MAXIMO_PREGUNTAS
+    );
+    setQuestions(preguntasSeleccionadas);
+
+    set(gameReference, {
       stage: "lobby",
-      players: {}, // vacío
+      players: {},
       currentQuestionIndex: 0,
+      questions: preguntasSeleccionadas,
     });
+
     setStage("lobby");
   }, [gameId]);
 
-  // Temporizador para avanzar pregunta automáticamente
   useEffect(() => {
     if (stage !== "question") return;
 
@@ -50,13 +66,13 @@ export default function Host() {
     if (timerRef.current) clearInterval(timerRef.current);
 
     timerRef.current = setInterval(() => {
-      setSecondsLeft((segundos) => {
-        if (segundos <= 1) {
+      setSecondsLeft((s) => {
+        if (s <= 1) {
           clearInterval(timerRef.current);
           avanzarPreguntaAutomaticamente();
           return 0;
         }
-        return segundos - 1;
+        return s - 1;
       });
     }, 1000);
 
@@ -65,30 +81,32 @@ export default function Host() {
     };
   }, [stage, currentQuestionIndex]);
 
-  // Función que avanza pregunta y sincroniza en Firebase
   const avanzarPreguntaAutomaticamente = async () => {
     if (!gameId) return;
-    const gameRef = ref(db, `games/${gameId}`);
+
+    const gameReference = ref(db, `games/${gameId}`);
 
     if (currentQuestionIndex + 1 < questions.length) {
-      const siguiente = currentQuestionIndex + 1;
-      setCurrentQuestionIndex(siguiente);
-      await update(gameRef, {
+      const siguientePregunta = currentQuestionIndex + 1;
+      setCurrentQuestionIndex(siguientePregunta);
+      await update(gameReference, {
         stage: "question",
-        currentQuestionIndex: siguiente,
+        currentQuestionIndex: siguientePregunta,
       });
     } else {
-      await update(gameRef, { stage: "ranking" });
+      await update(gameReference, {
+        stage: "ranking",
+      });
       setStage("ranking");
     }
   };
 
-  // Iniciar juego desde lobby
   const iniciarJuego = async () => {
     if (!gameId) return;
-    const gameRef = ref(db, `games/${gameId}`);
 
-    await update(gameRef, {
+    const gameReference = ref(db, `games/${gameId}`);
+
+    await update(gameReference, {
       stage: "question",
       currentQuestionIndex: 0,
     });
@@ -98,32 +116,31 @@ export default function Host() {
     setSecondsLeft(TIEMPO_PREGUNTA);
   };
 
-  // El host responde igual que los jugadores, se añade en jugadores si responde
   const manejarRespuestaHost = async (esCorrecta, tiempo) => {
     if (!gameId) return;
 
-    const hostRef = ref(db, `games/${gameId}/players/HOST`);
-    const snapshot = await get(hostRef);
+    const hostReference = ref(db, `games/${gameId}/players/HOST`);
+    const snapshot = await get(hostReference);
     const puntuacionActual = snapshot.exists() ? snapshot.val().score || 0 : 0;
 
     const puntosBase = esCorrecta ? 10 : 0;
     const puntosPorTiempo = esCorrecta ? Math.max(0, 10 - tiempo) : 0;
     const puntosTotales = puntosBase + puntosPorTiempo;
 
-    await update(hostRef, {
+    await update(hostReference, {
       name: "Host",
       score: puntuacionActual + puntosTotales,
     });
   };
 
   return (
-    <div className="p-4 max-w-xl mx-auto">
+    <div className="container-app">
       {stage === "crear" && (
-        <div className="space-y-4">
-          <h2 className="text-xl font-bold">Crear nueva partida</h2>
+        <div className="flex flex-col gap-4">
+          <h2 className="title">Crear nueva partida</h2>
           <button
             onClick={() => setGameId(generarIdPartida())}
-            className="bg-blue-600 text-white px-6 py-3 rounded"
+            className="btn btn-primary"
           >
             Generar Game ID
           </button>
@@ -132,8 +149,9 @@ export default function Host() {
 
       {stage === "lobby" && (
         <>
-          <h3 className="mb-2 font-semibold">
-            Game ID: <span className="font-mono">{gameId}</span>
+          <h3 className="subtitle mb-3">
+            Game ID:{" "}
+            <span className="font-mono bg-gray-100 px-2 rounded">{gameId}</span>
           </h3>
           <Lobby gameId={gameId} onStart={iniciarJuego} />
         </>
@@ -141,16 +159,15 @@ export default function Host() {
 
       {stage === "question" && (
         <>
-          <div className="text-right mb-2 text-sm text-gray-600">
+          <div className="timer mb-4 text-right">
             Tiempo restante: <strong>{secondsLeft}</strong> segundos
           </div>
-
           <Question
             questionIndex={currentQuestionIndex}
             questions={questions}
             onAnswer={manejarRespuestaHost}
             onTimeOut={() => {}}
-            showTimer={false} // El temporizador está fuera
+            showTimer={false}
           />
         </>
       )}
